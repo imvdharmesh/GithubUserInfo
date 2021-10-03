@@ -1,4 +1,5 @@
 from distutils.core import setup
+import textwrap
 setup(
   name = 'GithubUserInfo',         # How you named your package folder (MyLib)
   packages = ['GithubUserInfo'],   # Chose the same as "name"
@@ -14,6 +15,59 @@ setup(
           'requests',
           'beautifulsoup4',
       ],
+  long_description =textwrap.dedent(
+    """\
+    (Tutorial)
+    ===========================
+
+      # import the pakage
+      from GithubUserInfo import githubUserAccount as gt
+
+      # using username get details of github account
+      gt.get("username")
+
+      # using username set the username & call other functions
+      gt.set("username")
+
+      # returns user's name
+      gt.name()
+
+      # returns user's username
+      gt.username()
+
+      # returns user's bio
+      gt.bio()
+
+      # returns user's total followers
+      gt.followers()
+
+      # returns user's total followings
+      gt.following()
+
+      # returns user's total stars
+      gt.star()
+
+      # returns user's location
+      gt.location()
+
+      # returns user's website
+      gt.website()
+
+      # returns user's twitter
+      gt.twitter()
+
+      # returns user's organization
+      gt.organization()
+
+      # returns user's total projects
+      gt.count_projects()
+
+      # returns user's repositories
+      gt.count_repositories()
+
+    Reference documentation
+    ===============================
+    ),
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
