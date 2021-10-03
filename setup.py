@@ -3,13 +3,13 @@ import textwrap
 setup(
   name = 'GithubUserInfo',         # How you named your package folder (MyLib)
   packages = ['GithubUserInfo'],   # Chose the same as "name"
-  version = '1.0',      # Start with a small number and increase it with every change you make
+  version = '0.2',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = "Find the user's github account information.",   # Give a short description about your library
   author = 'Dharmesh Vishwakarma',                   # Type in your name
   author_email = 'dharmeshvishwakarma2000@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/imvdharmesh/GithubUserInfo',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/imvdharmesh/GithubUserInfo/archive/refs/tags/pypi-1.0.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/imvdharmesh/GithubUserInfo/archive/refs/tags/pypi-0.2.tar.gz',    # I explain this later on
   keywords = ['github', 'githubuserinfo', 'githubuseraccount'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',
@@ -66,7 +66,7 @@ setup(
 
       # returns user's repositories
       gt.count_repositories()
-      
+
     /"""
     ),
   classifiers=[
