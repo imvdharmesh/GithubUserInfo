@@ -20,7 +20,9 @@ setup(
     (Tutorial)
     ===========================
 
-      # import the pakage
+    This package is only for Github Public User's Account.
+
+      # import the package
       from GithubUserInfo import githubUserAccount as gt
 
       # using username get details of github account
@@ -64,10 +66,8 @@ setup(
 
       # returns user's repositories
       gt.count_repositories()
-
-    Reference documentation
-    ===============================
-    """
+      
+    /"""
     ),
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
