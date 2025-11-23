@@ -1,11 +1,16 @@
-# GithubUserInfo
+# 📦 GithubUserInfo
+A simple Python package to fetch **public GitHub user profile details** using web scraping.
 
-This package is only for Github Public User's Account.
+This package allows developers to quickly retrieve information about any public GitHub profile such as username, full name, bio, followers, stars, repositories, and more.
 
-## Installation of Package
+---
+
+## 🚀 Installation
+
+Install using **pip**:
+
 ```bash
-$ pip install GithubUserInfo
-```
+pip install GithubUserInfo
 
 ## Simple Demo
 
